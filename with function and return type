@@ -1,0 +1,20 @@
+// with arguments and with return type
+public class calculator{
+    
+// user defined functions with arguments and return type
+    static int add (int num1, int num2){
+    int sum =num1+num2;
+    return sum;  //retuning the method
+}
+// main method
+public static void main (String args[]){
+    int a=10;
+    int b=23;
+    
+    
+// calling the result
+int result =add(a,b);
+
+System.out.println("the answer is= "+result);
+}    
+}
